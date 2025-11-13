@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:13.11.2025
+## Reference Number:212224240066
+## Name:KAAVIYAN K
 ## Problem Title
 SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
 ## Problem Description
@@ -41,27 +41,116 @@ Ministry of Fisheries, Animal Husbandry & Dairying
 Department of Animal Husbandry & Dairying (DoAH&D)
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+Our proposed solution is a Digital Farm Management and Biosecurity Portal — a centralized web and mobile platform that helps pig and poultry farmers effectively manage farm biosecurity through digital tools and guidance.
+
+Key Features
+
+Farm Biosecurity Risk Assessment:
+AI-based questionnaire that assesses disease risk based on farm size, layout, livestock population, and local outbreak data.
+
+Interactive Dashboard:
+Real-time farm health monitoring, notifications on disease outbreaks, and compliance score tracking.
+
+Training & Awareness Modules:
+Gamified and multilingual e-learning modules covering cleaning, vaccination, and safe animal transport.
+
+Regulatory Compliance Tracker:
+Auto-generated digital records and reports to meet Department of Animal Husbandry and Dairying standards.
+
+Farmer-Veterinarian Connect:
+Direct chat and video consultation options for farmers to connect with registered veterinarians.
+
+Offline Functionality:
+Core features accessible without internet—important for rural and low-connectivity regions.
+
+Analytics for Policy Makers:
+Aggregated and anonymized data insights to help authorities track disease trends and manage responses efficiently.
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+Technologies Used
+
+Frontend: React.js (Web), Flutter (Mobile App)
+
+Backend: Node.js with Express.js
+
+Database: MongoDB (for flexibility)
+
+Cloud Services: AWS / Google Cloud for hosting and analytics
+
+AI/ML: Python (Scikit-learn) for risk assessment model
+
+APIs: GIS and weather APIs for region-based disease prediction
+
+Security: JWT authentication, HTTPS, and role-based access control
+
+System Workflow
+
+User Registration: Farmers, veterinarians, and officials register and log in.
+
+Farm Setup: Users enter details about farm type, livestock count, and biosecurity measures.
+
+Risk Assessment Engine: System analyzes data and assigns a “Biosecurity Score.”
+
+Recommendations: Generates tailored preventive measures and training modules.
+
+Monitoring Dashboard: Displays alerts, health logs, and compliance records.
+
+Data Analytics Module: Authorities access anonymized reports for disease surveillance.
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+Feasibility
+
+Technical: Based on existing web and mobile frameworks; integration with real-time APIs is achievable.
+
+Operational: Designed for low-cost scalability; supports regional languages for inclusivity.
+
+Economic: Open-source components reduce development costs; potential funding via government grants and CSR programs.
+
+Potential Challenges
+
+Limited digital literacy among rural farmers.
+
+Connectivity issues in remote areas.
+
+Need for continuous data updates on disease outbreaks.
+
+Mitigation Strategies
+
+Simplified UI with icons and voice guidance.
+
+Offline mode with local caching.
+
+Collaboration with veterinary departments for verified, real-time data feeds.
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+Impact on Target Audience
+
+Farmers: Access to biosecurity tools, personalized guidance, and faster response to disease threats.
+
+Veterinarians: Simplified data collection, reporting, and farmer outreach.
+
+Government & Researchers: Centralized data for surveillance, prediction, and policy planning.
+
+Social, Economic & Environmental Benefits
+
+Social: Empowers small and marginal farmers with accessible digital support.
+
+Economic: Reduces financial losses from disease outbreaks through early intervention.
+
+Environmental: Promotes sustainable and responsible livestock practices, minimizing waste and contamination.
 
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+Food and Agriculture Organization (FAO) – Biosecurity in Terrestrial Animal Value Chains
+🔗 https://www.fao.org/animal-health/areas-of-work/biosecurity/en
+
+World Organisation for Animal Health (WOAH/OIE) – Animal Health Standards and Biosecurity Guidelines
+🔗 https://www.woah.org/app/uploads/2021/03/en-normes.pdf
+
+Department of Animal Husbandry & Dairying, Government of India – Biosecurity and Biosafety Manual
+🔗 https://epashuhaat.com/India/e-pashudhan/documents/Biosecurity%20and%20Biosafety%20Manual.pdf
+
+Indian Council of Agricultural Research (ICAR) – Research on Disease Management in Livestock
+🔗 https://icar.org.in
+
+National Livestock Mission (NLM) – Farmer Training and Disease Management Resources
+🔗 https://nlm.gov.in
